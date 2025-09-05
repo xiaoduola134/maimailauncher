@@ -1,0 +1,57 @@
+QMainWindow {
+    background-color: #f0f0f0;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+
+QGroupBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1ex;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 5px;
+}
+
+QTextEdit {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 10pt;
+}
+
+QPushButton {
+    background-color: #4a86e8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    min-height: 30px;
+}
+
+QPushButton:hover {
+    background-color: #3a76d8;
+}
+
+QPushButton:disabled {
+    background-color: #cccccc;
+}
+
+QLabel {
+    font-size: 9pt;
+}
+
+QProgressBar {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+QProgressBar::chunk {
+    background-color: #4a86e8;
+    width: 10px;
+}
