@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles.qss</file>
+        <file>untitled2_zh_CN.ts</file>
+    </qresource>
+</RCC>
